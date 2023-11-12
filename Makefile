@@ -1,0 +1,8 @@
+COMPILATOR=g++
+FILES=main.cpp
+FLAGS=-std=c++11 -o
+PROGRAM_NAME=program
+
+all:
+	$(COMPILATOR) $(FILES) $(FLAGS) $(PROGRAM_NAME)
+
